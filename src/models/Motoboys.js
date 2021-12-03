@@ -1,11 +1,11 @@
 class Motoboys{
-    constructor(nome,filial,telefone, cidade, placa_da_moto){
+    constructor(nome,filial,telefone, cidade, placa){
      
      this.nome = nome
      this.telefone = telefone
      this.filial = filial
      this.cidade = cidade
-     this.placa = placa_da_moto    
+     this.placa = placa    
     }
 }
 
