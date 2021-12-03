@@ -1,0 +1,29 @@
+{
+  "name": "projeto-final-mod4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lua-nasantos/restaurante-motoboys-API.git"
+  },
+  "author": "luana santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lua-nasantos/restaurante-motoboys-API/issues"
+  },
+  "homepage": "https://github.com/lua-nasantos/restaurante-motoboys-API#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "save-dev": "^0.0.1-security",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
