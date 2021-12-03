@@ -22,5 +22,23 @@ class motobDAO{
             })
         })
     }
+    retornaTodosMotoboys(){
+        return new Promise((resolve, reject) => {
+            this.bd.all('SELECT * FROM MOTOBOYS;', (error, rows) => {
+
+                if (error) {
+                    reject({
+                        "mensagem": error.message,
+                        "error": true
+                    })
+                } else {
+                    resolve({
+                        "motoboys": rows,
+                        "error": false
+                    })
+                }
+            })
+        })
+    }
 }
 module.exports = motobDAO
