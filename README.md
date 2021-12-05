@@ -8,7 +8,7 @@ A realização desse projeto tem como objetivo a criação de uma API para cadas
 _______
 ## Ferramentas Necessárias: 
 
-Para utilizar essa API, é preciso ter instalado em sua máquina: Git, Node.js, SQlite3 pacotes npm, framework, nodemon, express, insomnia e um editor de código como VsCode.
+Para utilizar essa API, é preciso ter instalado em sua máquina: Git, Node.js, SQlite3 pacotes npm, framework, express, insomnia e um editor de código como VsCode.
 
 ------
 ## Passo a Passo:
